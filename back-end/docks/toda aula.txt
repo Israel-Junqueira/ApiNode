@@ -1,0 +1,37 @@
+>clonar na desktop do git
+> no cline o path : C:\ionic\Lojinha-Ionic
+> instalar o npm (npm i)
+> abrir e instalar a extensão da loiane
+
+> rodar o servidor (ionic serve)
+
+----------------------------------------------
+
+Entrar na pasta ionic
+cd\ionic
+
+cd\
+mkdir ionic
+cd\ionic
+
+criar a pasta no disco local c/
+
+mkdir <nome da pasta,sem espaço>
+mkdir back-end
+cd back-end
+
+npm init -y 
+
+------------------------------------------------
+
+--instalar o json server
+
+npm i json-server
+
+--Criar um arquivo <nome>.json e escrever a estrutura do DB
+--Configurar o package.json com o start do server na propriedade "script"
+"start": "json-server --watch db.json"
+
+-----------------------------------------------
+--para rodar o json server
+npm start
