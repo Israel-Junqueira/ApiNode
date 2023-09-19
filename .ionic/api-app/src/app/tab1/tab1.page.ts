@@ -1,4 +1,4 @@
-import { Component, afterNextRender } from '@angular/core';
+import { Component, OnInit, afterNextRender } from '@angular/core';
 import { Usuario } from '../models/Usuario.model';
 import { UsuarioService } from '../services/usuario.service';
 
@@ -6,8 +6,12 @@ import { UsuarioService } from '../services/usuario.service';
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
+
 })
-export class Tab1Page {
+
+
+
+export class Tab1Page implements OnInit {
 
   listaUsuarios : Usuario[] = [];
   usuario?: Usuario;
@@ -37,5 +41,9 @@ export class Tab1Page {
       this.usuario = retorno as Usuario;
       this.listaUsuarios = [];
     });
+  }
+
+  ngOnInit():void{
+    this.buscarUsuario();
   }
 }

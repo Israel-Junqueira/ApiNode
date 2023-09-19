@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>cadastro de Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-input label="Nome" placeholder="Digite um nome completo"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="Email" type="email" placeholder="Digite um email valido"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="Senha" type="password" labelPlacement="floating" placeholder="Digite sua senha"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="Confirmar Senha" labelPlacement="floating" placeholder="Repita a sua senha"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" color="success">Salvar</ion-button>
+  <ion-button expand="full" fill="clear" color="dark">Voltar</ion-button>
+
+</ion-content>

@@ -7,15 +7,16 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-button expand="block" (click)="buscarUsuario()">
-    Buscar todos os Usuarios
-  </ion-button>
+
 <ion-item>
   <ion-input label="Digite um ID:"[(ngModel)]="id">
   </ion-input>
 </ion-item>
 <ion-button expand="block" (click)="buscarUsuarioID()">
   Filtrar Usuario
+</ion-button>
+<ion-button expand="block" fill="outline" (click)="buscarUsuario()">
+  Limpar Filtro
 </ion-button>
 <div *ngIf="usuario">
   <h2 style="color:blue">Resultado da Busca:</h2>
