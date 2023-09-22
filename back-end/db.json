@@ -1,27 +1,31 @@
 {
-    "usuarios":[
-        {
-            "id":1,
-            "nome":"Raelzera",
-            "email":"Rael@zao.com",
-            "senha":123456
-
-        },
-        {
-            "id":2,
-            "nome":"aninha",
-            "email":"aninha@ana.com",
-            "senha":123456
-
-        }
-    ],
-    "produto":[
-        {
-            "id":1,
-            "nome":"clipes",
-            "descricao":"de papel,tamanho grande",
-            "validade":"2024-12-31",
-            "valor":15.69
-        }
-    ]
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Raelzera",
+      "email": "Rael@zao.com",
+      "senha": 123456
+    },
+    {
+      "id": 2,
+      "nome": "aninha",
+      "email": "aninha@ana.com",
+      "senha": 123456
+    },
+    {
+      "nome": "israelRibeiro",
+      "email": "israel@gmail.com",
+      "senha": "123456",
+      "id": 3
+    }
+  ],
+  "produto": [
+    {
+      "id": 1,
+      "nome": "clipes",
+      "descricao": "de papel,tamanho grande",
+      "validade": "2024-12-31",
+      "valor": 15.69
+    }
+  ]
 }

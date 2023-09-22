@@ -18,3 +18,6 @@ Usuario.model.ts
 ionic generate service service/<nome>
 
 --Adicionar o HttpClientModule no app.module.ts dentro dos imports
+
+cria a pastinha
+ionic g page cadastro-produto 

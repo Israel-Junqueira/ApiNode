@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>cadastro do produto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-input label="Nome" placeholder="Digite um nome do produto"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="preço"  placeholder="Digite um preço"></ion-input>
+  </ion-item>
+
+ 
+
+  <ion-button (click)="salvarProduto()" expand="full" color="success">Salvar</ion-button>
+  <ion-button routerLink="/" expand="full" fill="clear" color="dark">Voltar</ion-button>
+
+</ion-content>
